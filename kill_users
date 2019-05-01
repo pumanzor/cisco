@@ -1,0 +1,11 @@
+Switch1#sh tcp brief
+TCB       Local Address           Foreign Address        (state)
+02DC0AB0  192.168.253.254..22     192.168.0.1.51917     ESTAB
+0155CBF0  192.168.253.254..23     HackerHost.hac..56667 ESTAB
+
+
+Switch1#clear tcp tcb 0155CBF0
+[confirm]y
+ [OK]
+
+Switch1#
